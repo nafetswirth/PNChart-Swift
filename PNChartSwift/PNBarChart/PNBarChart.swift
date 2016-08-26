@@ -26,8 +26,8 @@ public class PNBarChart: UIView {
             }
         }
     }
-    var labels: NSMutableArray = []
-    var yLabels: NSArray = []
+    public var labels: NSMutableArray = []
+    public var yLabels: NSArray = []
     public var yValues: NSArray = [] {
         didSet{
             if (yMaxValue != nil) {
